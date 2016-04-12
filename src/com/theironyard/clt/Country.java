@@ -14,7 +14,7 @@ public class Country {
 
     @Override
     public String toString() {
-        return String.format("%s | %s", abbr, name);
+        return String.format("%s | %s \n", abbr, name);
     }
 
 

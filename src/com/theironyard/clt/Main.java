@@ -38,13 +38,11 @@ public class Main {
         if (letter.length() > 1) {
             throw new IllegalArgumentException("That is not a letter moron!");
         }
-        File g = new File(String.format("%s_countries.txt"));
+        File g = new File(String.format("%s_countries.txt", letter));
 
         FileWriter fw = new FileWriter(g);
 
         fw.write(map.get(letter).toString());
-
-        fw.append(map.get(letter).toString());
 
         fw.close();
 

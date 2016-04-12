@@ -1,0 +1,10 @@
+[LA | lao people's democratic republic 
+, LV | latvia 
+, LB | lebanon 
+, LS | lesotho 
+, LR | liberia 
+, LY | libyan arab jamahiriya 
+, LI | liechtenstein 
+, LT | lithuania 
+, LU | luxembourg 
+]
