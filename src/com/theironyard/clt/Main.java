@@ -42,8 +42,11 @@ public class Main {
 
         FileWriter fw = new FileWriter(g);
 
-        
+        fw.write(map.get(letter).toString());
 
+        fw.append(map.get(letter).toString());
+
+        fw.close();
 
 
     }

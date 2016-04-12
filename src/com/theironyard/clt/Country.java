@@ -12,5 +12,10 @@ public class Country {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return String.format("%s | %s", abbr, name);
+    }
+
 
 }
